@@ -11,34 +11,100 @@
   <meta http-equiv="Expires" content="0" />
   <title>Xiaoyuan Xie's personal homepage</title>
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro:400,700" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet" type="text/css" />
+  <link href="index.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <header class="header">
-    <div class="header__content">
-      <div class="header__profile">
-        <img src="pic/photo.gif" alt="Xiaoyuan Xie Profile Picture">
-      </div><!-- header profile-->
+  <div class="nav">
+		<div class="head">
+			<a href="#top">Xiaoyuan Xie</a>
+		</div>
+		<div class="item">
+			<ul>
+				<li><a href="#news">News</a></li>
+				<li><a href="#interest">Interest</a></li>
+				<li><a href="#background">Background</a></li>
+				<li><a href="#awards">Awards</a></li>
+				<li><a href="#public">Publications</a></li>
+				<li><a href="#service">Services</a></li>
+				<li><a href="#exper">Experience</a></li>
+				<li><a href="#stu">Students</a></li>
+			</ul>
+		</div>
+	</div>
+	<a name="top"></a>
+	<div class="header">
+		<div class="none">
+			<div class="header__content">
+				<div class="header__profile">
+					<img src="pic/photo.gif" alt="Xiaoyuan Xie Profile Picture" />
+				</div>
+				<!-- header profile-->
 
-      <div class="header__intro">
-        <h2 class="heading--primary">DR. Xiaoyuan Xie</h2>
-        <h3 class="heading--subtle">Computer School of Wuhan University</h3>
-      </div>
-      <!-- header intro -->
-    </div>
-
-    <div class="header__card">
-      <p>Professor, School of Computer Science, Wuhan University</p>
-      <p>CSTAR-Centre of Software Testing, Analysis and Reliability</p>
-      <a href="maito:xxie@whu.edu.cn" class="link email_at">xxie@whu.edu.cn</a>
-      <p>Computer School, Wuhan University, E301</p>
-      <a href="https://scholar.google.com.hk/citations?user=VlHMPKoAAAAJ&hl=zh-CN" class="link">Google Scholar</a>
-    </div><!-- header card -->
-  </header>
-  <main class="content">
+				<div class="header__intro">
+					<h2 class="heading--primary">DR. Xiaoyuan Xie</h2>
+				</div>
+				<!-- header intro -->
+			</div>
+			<a name="news"></a>
+			<div class="header__card">
+				<p>Professor, School of Computer Science, Wuhan University</p>
+				<p>CSTAR-Centre of Software Testing, Analysis and Reliability</p>
+				<a href="maito:xxie@whu.edu.cn" class="link email_at">xxie@whu.edu.cn</a>
+				<p>Computer School, Wuhan University, E301</p>
+				<a
+					href="https://scholar.google.com.hk/citations?user=VlHMPKoAAAAJ&hl=zh-CN"
+					class="link">Google Scholar</a>
+			</div>
+			<!-- header card -->
+		</div>
+	</div>
+	<main class="content">
     <div class="container">
-      <section class="section">
+    	<div class="news">
+    		<a name="interest"></a>
+    		<h2 class="section__title">Latest News</h2>
+    		<ul>
+    			<li><p>Congratulations to Jiewei Zhang for her Master's National Scholarship !</p></li>
+    			<li><p>Call for paper: the 4th International Workshop on Metamorphic Testing will be held in conjunction with ICSE 2019:
+    			<a href="http://metwiki.net/MET19/index.html" target="blank">MET 2019</a>.</p>
+    			<p><strong>Researchers are welcome to submit your papers to MET2019!</strong></p>
+    			</li>
+    		
+    		
+    		</ul>
+    	
+    	
+    	</div>
+		<div class="section1">
+			<a name="background"></a>
+			<h2 class="section__title">Research Interests</h2>
+			<div class="test">
+				<img src="./pic/pic1.png"></img>
+				<h4>Software Testing</h4>
+			</div>
+			<div class="slice">
+				<img src="./pic/pic2.png"></img>
+				<h4>Program Slicing and Analysis</h4>
+			</div>
+			<div class="locate">
+				<img src="./pic/pic3.png"></img>
+				<h4>Debugging and Fault-localization</h4>
+			</div>
+			<div class="search">
+				<img src="./pic/pic4.png"></img>
+				<h4>Search-based Software Engineering</h4>
+			</div>
+			<div class="evolution">
+				<img src="./pic/pic5.png"></img>
+				<h4>Evolutionary Computing</h4>
+			</div>
+			<div class="machine">
+				<img src="./pic/pic6.png"></img>
+				<h4>Machine Learning</h4>
+			</div>
+		</div>
+		<section class="section">
         <h2 class="section__title">Education & Working Background</h2>
         <ul class="list">
           <li class="list__item">
@@ -99,7 +165,7 @@
               </div>
             </div>
           </li><!-- list item -->
-
+		  <a name="awards"></a>
           <li class="list__item">
             <div class="flex-wrapper">
               <div>
@@ -193,7 +259,7 @@
               </div>
             </div>
           </li><!-- list item -->
-
+		  <a name="public"></a>
           <li class="list__item">
             <div class="flex-wrapper">
               <div>
@@ -204,14 +270,6 @@
           </li><!-- list item -->
         </ul><!-- list -->
       </section><!-- section -->
-
-      <section class="section">
-        <h2 class="section__title">Research Interests</h2>
-        <p>Software testing, program slicing and analysis, debugging and fault-localization, search-based
-          software engineering, evolutionary computing, machine learning
-
-        </p>
-      </section>
 
       <section class="section">
         <h2 class="section__title">Selected Publications
@@ -600,7 +658,7 @@
 
         <h3 class="title">Others</h3>
         <ul class="list">
-
+		  <a name="service"></a>
           <li class="list__item">
             <div class="flex-wrapper">
               <div>
@@ -676,7 +734,7 @@
               </div>
             </div>
           </li><!-- list item -->
-
+		  <a name="exper"></a>
           <li class="list__item">
             <div class="flex-wraper">
               <div>
@@ -803,7 +861,7 @@
               </div>
             </div>
           </li><!-- list item -->
-
+		  <a name="stu"></a>
           <li class="list__item">
             <div class="flex-wrapper">
               <div>
@@ -818,11 +876,36 @@
 
         </ul><!-- list -->
       </section><!-- section -->
+      
+      <div class="student">
+      		<h2 class="section__title">Students</h2>
+      		<div class="phd">
+      		<h3 class="name">PhD Candidates</h3>
+      			<img src="./pic/LiJiahao.jpg" alt="LiJiahao's pic" />
+      			<h4>Jiahao Li</h4>
+      		</div>
+      		<div class="master">
+      		<h3 class="name">Master Students</h3>
+      		    <div class="jie">
+      		    	<img src="./pic/ZhangJieWei.jpg" alt="ZhangJieWei's pic" />
+      		    	<h4>Jiewei Zhang</h4>
+      		    </div>
+      			<div class="zhi">
+      				<img src="./pic/ZhangZhiyi.png" alt="ZhangZhiyi's pic" />
+      				<h4>Zhiyi Zhang</h4>
+      			</div>
+      			<div class="xu">
+      				<img src="./pic/XuJingdi.jpg" alt="XuJingdi's pic" />
+      				<h4>Jingdi Xu</h4>
+      			</div>     		
+      		</div>
+      		<div class="alumni">
+      		<h3 class="name">Alumni</h3>
+      			<img src="./pic/WangChen.jpg" alt="WangChen's pic" />
+      			<h4>Chen Wang</h4>
+      		</div>
+      </div> 
     </div>
   </main>
-
 </body>
-
-
-
 </html>
