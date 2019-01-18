@@ -21,7 +21,7 @@ a {
 }
 
 ul li {
-  list-style-type: disc;
+  list-style: none;
 }
 
 a.link {
@@ -63,44 +63,64 @@ p {
   margin: 0 auto;
 }
 
+.nav{
+	width:100%;
+	height:50px;
+	background-color:#fff;
+	position:fixed;
+	z-index:100;
+	
+}
+
+.nav .head{
+	font-size:25px;
+	line-height:50px;
+	margin-left:75px;
+	float:left;
+}
+
+.nav ul li{
+	float:left;
+	font-size:18px;
+	margin-left:30px;
+}
+
+.nav .item{
+	height:50px;
+	margin-left:300px;
+	line-height:50px;
+}
+
+
 .header {
   min-height: 90vh;
-  background-color: #000000;
   position: relative;
-  background-image: url(./assets//bg.jpg);
+  background-image:url(./pic/bg6.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
+  padding-top:50px;
 }
 
-.header::after {
-  content: "";
-  background-color: #000000;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  opacity: 0.4;
-  z-index: 1;
+.header .none{
+  height:570px;	
+  width:100%;	  
+  background:rgba(0,0,0,.3);
 }
-
 .header .header__content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
-  padding-bottom: 5rem;
   z-index: 5;
+  margin-top:15px;
 }
 
 .header__profile {
   height: 15rem;
   width: 15rem;
   text-align: center;
+  margin-top:30px;
   display: inline-block;
 }
 
@@ -122,26 +142,17 @@ p {
 .heading--primary {
   font-family: "Fjalla One", sans-serif;
   color: #fff;
-  font-size: 4rem;
+  font-size: 48px;
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 2.4px;
   line-height: 1.8;
 }
 
-.heading--subtle {
-  font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #fff;
-  font-weight: 400;
-}
 
 .header__card {
-  background-color: #fff;
-  color: #000;
-  padding: 5rem 15rem;
+  margin-top:300px;
   position: absolute;
-  bottom: -10rem;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -153,61 +164,138 @@ p {
   z-index: 5;
 }
 
-.header__card::after {
-  content: "";
-  width: 100%;
-  height: 1rem;
-  background-color: #000000;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-}
-
 .header__card p {
   margin-bottom: 1.2rem;
+  font-size:23px;
+  color:#fff;
   display: block;
 }
 
+.header__card a {
+	font-size:20px;
+	color:#fff;	
+}
+
 .content {
-  background-color: #f1f1f1;
+  background-color: #f5f5f5;
   padding-bottom: 5rem;
 }
 
-.content .container {
-  padding-top: 15rem;
+.content .container .news{
+	width:100%;
+	height:170px;
+	padding-top:20px;
+	padding-left:10px;
+	margin-bottom:40px;
+	background-color:#fff;
+	box-shadow: rgba(0,0,0,0.3) 2px 3px 2px;
 }
 
+.content .container .news ul li{
+	list-style: disc;
+	margin-left:20px;
+}
+
+.content .container .news ul li a{
+	text-decoration:underline;
+	color:blue;	
+}
+
+.content .container .section1{
+	width:100%;
+	height:170px;
+	padding-top:20px;
+	padding-left:10px;
+	margin-bottom:40px;
+	background-color:#fff;
+	box-shadow: rgba(0,0,0,0.3) 2px 3px 2px;
+}
+
+.content .container .section1 h4{
+	font-size:15px;
+	text-align:center;
+}
+
+.content .container .section1 img{
+	margin-top:10px;
+	margin-left:50px;
+	width:50px;
+	height:50px;
+}
+
+.content .container .section1 .test{
+	width:150px;
+	height:120px;
+	float:left;
+	margin-left:15px;
+}
+
+.content .container .section1 .slice{
+	width:150px;
+	height:120px;
+	float:left;
+	margin-left:10px;
+}
+
+.content .container .section1 .locate{
+	width:150px;
+	height:120px;
+	float:left;
+	margin-left:10px;
+}
+
+.content .container .section1 .search{
+	width:150px;
+	height:120px;
+	float:left;
+	margin-left:10px;
+}
+
+.content .container .section1 .evolution{
+	width:150px;
+	height:120px;
+	float:left;
+	margin-left:10px;
+}
+
+.content .container .section1 .machine{
+	width:150px;
+	height:120px;
+	float:left;
+	margin-left:10px;
+}
 .section {
-  margin-bottom: 5rem;
-  padding-bottom: 2rem;
-}
-
-.section:not(:last-child) {
-  border-bottom: 0.2px solid #ccc;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  padding-top:20px;
+  padding-right:10px;
+  padding-left:10px;
+  background-color:#fff;
+  box-shadow: rgba(0,0,0,0.3) 2px 3px 2px;
 }
 
 h2.section__title {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  //margin-bottom: 1rem;
   color: #4a90e2;
 }
 
 h3.title {
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  //margin-bottom: 2rem;
 }
 
 .list li {
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 .list__item {
   list-style: disc;
   display: list-item;
   width: 100%;
-  margin-bottom: 0.2rem;
+  //margin-bottom: 0.2rem;
   position: relative;
-  padding-top: 2rem;
+  //padding-top: 2rem;
 }
 
 .list__item .flex-wrapper {
@@ -235,13 +323,101 @@ h3.title {
 
 .list__item p {
   font-size: 1.6rem;
-  margin-bottom: 1.8rem;
+  //margin-bottom: 1.8rem;
 }
 
 .date {
   color: #9ad2cb;
   font-weight: 700;
   line-height: 1.7;
+}
+
+.content .container .student{
+	width:100%;
+	height:160px;
+	padding-left:10px;
+	background-color:#fff;
+	box-shadow: rgba(0,0,0,0.3) 2px 3px 2px;
+}
+
+.content .container .student .phd{
+	width:150px;
+	height:120px;
+	float:left;
+	margin-left:20px;	
+}
+
+.content .container .student .master{
+	width:600px;
+	height:120px;
+	float:left;
+	margin-left:20px;
+}
+
+.content .container .student .alumni{
+	width:150px;
+	height:120px;
+	float:left;
+	margin-left:20px;
+}
+
+h3.name{
+	font-size: 1.6rem;
+}
+
+.student .phd img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  margin-top:5px;
+  margin-left:37px;
+}
+
+.student .master .jie{
+	width:100px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+}
+
+.student .master .zhi{
+	width:100px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+}
+
+.student .master .xu{
+	width:100px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+}
+.student .master img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  margin-left:13px;
+  margin-top:5px;
+}
+
+.student .alumni img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  margin-top:5px;
+  margin-left:37px;
+}
+
+.student h4{
+	text-align:center;
+	font-size:15px;
 }
 
 @media only screen and (max-width: 37.5em) {
