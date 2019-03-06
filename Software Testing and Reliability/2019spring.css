@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+	font-size: 9px; 
+  	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman',Times,serif;
+}
+
+a{
+	font-size: 17px; 
+}
+.header{
+	margin-top:55px;
+	margin-bottom:20px;
+}
+
+.w1{
+	word-spacing:20px;
+	margin-top:20px;
+}
+
+.w2{
+	word-spacing:20px;
+	margin-top:20px;
+}
