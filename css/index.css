@@ -334,28 +334,34 @@ h3.title {
 
 .content .container .student{
 	width:100%;
-	height:160px;
+	height:540px;
 	padding-left:10px;
 	background-color:#fff;
 	box-shadow: rgba(0,0,0,0.3) 2px 3px 2px;
 }
 
 .content .container .student .phd{
-	width:150px;
+	width:100%;
 	height:120px;
 	float:left;
 	margin-left:20px;	
 }
 
 .content .container .student .master{
-	width:600px;
+	width:100%;
+	height:120px;
+	float:left;
+	margin-left:20px;
+}
+.content .container .student .undergraduates{
+	width:100%;
 	height:120px;
 	float:left;
 	margin-left:20px;
 }
 
 .content .container .student .alumni{
-	width:150px;
+	width:100%;
 	height:120px;
 	float:left;
 	margin-left:20px;
@@ -372,29 +378,41 @@ h3.name{
   object-fit: cover;
   display: inline-block;
   margin-top:5px;
-  margin-left:37px;
+  margin-left:13px;
 }
 
-.student .master .jie{
+.student .individual{
 	width:100px;
 	height:100px;
 	float:left;
 	margin-left:20px;
 }
 
-.student .master .zhi{
-	width:100px;
+.student .individual1{
+	width:120px;
 	height:100px;
 	float:left;
 	margin-left:20px;
 }
 
-.student .master .xu{
-	width:100px;
+.student .master .individual1 img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  margin-left:23px;
+  margin-top:5px;
+}
+
+.student .undergraduates .individual{
+	width:150px;
 	height:100px;
 	float:left;
 	margin-left:20px;
+	padding-top:20px;
 }
+
 .student .master img {
   height: 75px;
   width: 75px;
@@ -412,7 +430,7 @@ h3.name{
   object-fit: cover;
   display: inline-block;
   margin-top:5px;
-  margin-left:37px;
+  margin-left:13px;
 }
 
 .student h4{
