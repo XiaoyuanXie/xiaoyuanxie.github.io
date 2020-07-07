@@ -362,7 +362,7 @@ h3.title {
 
 .content .container .student .alumni{
 	width:100%;
-	height:120px;
+	height:275px;
 	float:left;
 	margin-left:20px;
 }
@@ -393,6 +393,23 @@ h3.name{
 	height:100px;
 	float:left;
 	margin-left:20px;
+}
+
+.student .individual_nopic{
+	width:150px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+	padding-top:40px;
+}
+
+.student .individual_nopic_next{
+	width:150px;
+	height:100px;
+	float:left;
+	margin-top:30px;
+	margin-left:20px;
+	padding-top:40px;
 }
 
 .student .master .individual1 img {
