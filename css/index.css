@@ -378,11 +378,11 @@ h3.name{
   object-fit: cover;
   display: inline-block;
   margin-top:5px;
-  margin-left:13px;
+  margin-left:25px;
 }
 
 .student .individual{
-	width:100px;
+	width:120px;
 	height:100px;
 	float:left;
 	margin-left:20px;
@@ -436,7 +436,7 @@ h3.name{
   border-radius: 50%;
   object-fit: cover;
   display: inline-block;
-  margin-left:13px;
+  margin-left:25px;
   margin-top:5px;
 }
 
@@ -447,7 +447,7 @@ h3.name{
   object-fit: cover;
   display: inline-block;
   margin-top:5px;
-  margin-left:13px;
+  margin-left:25px;
 }
 
 .student h4{
