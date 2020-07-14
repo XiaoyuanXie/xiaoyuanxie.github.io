@@ -407,11 +407,37 @@ h3.name{
 	width:150px;
 	height:100px;
 	float:left;
-	margin-top:30px;
+	margin-top:40px;
 	margin-left:20px;
-	padding-top:40px;
+	padding-top:20px;
+}
+.student .individual_zhiyi{
+	width:300px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+	margin-top:40px;
 }
 
+.student .individual_zhiyi .intro{
+	padding-top:8px;
+}
+
+.student .individual_zhiyi img{
+	height: 75px;
+  	width: 75px;
+  	border-radius: 50%;
+ 	 object-fit: cover;
+  	display: inline-block;
+  	margin-left:23px;
+  	margin-top:5px;
+}	
+
+.student .individual_zhiyi .img_name{
+	width:120px;
+	height:100px;
+	float:left;
+}
 .student .master .individual1 img {
   height: 75px;
   width: 75px;
