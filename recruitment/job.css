@@ -1,0 +1,69 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.container{
+	width:80%;
+	height:1100px;
+	margin:0 auto;
+	background-color:#FCFCFC;
+}
+
+.header{
+	width:50%;
+	height:80px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:20px;
+}
+
+.xuqiu{
+	width:90%;
+	height:1000px;
+	margin:0 auto;
+}
+.biao{
+	width:70%;
+	height:300px;
+	margin:0 auto; 
+}
+.individual1{
+	width:200px;
+	text-align:center;
+}
+.individual2{
+	width:185px;
+	text-align:center;
+}
+.individual3{
+	width:230px;
+	text-align:center;
+}
+.individual4{
+	width:120px;
+	text-align:center;
+}
+.note{
+	width:85%;
+	height:20px;
+	margin:0 auto; 
+}
+.xie{
+	margin-left:180px;
+}
+.intro{
+	width:85%;
+	height:400px;
+	margin:0 auto; 
+}
+.text{
+	width:90%;
+	height:200px;
+	margin:0 auto;
+	text-indent:2em;
+}
