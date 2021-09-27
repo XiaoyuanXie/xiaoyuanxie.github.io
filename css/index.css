@@ -93,13 +93,11 @@ p {
 
 
 .header {
-  min-height: 90vh;
   position: relative;
   background-image:url(../pic/bg6.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  position: relative;
   padding-top:50px;
 }
 
