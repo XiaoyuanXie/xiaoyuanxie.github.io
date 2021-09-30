@@ -267,7 +267,7 @@ p {
   padding-bottom: 20px;
   padding-top:20px;
   padding-right:10px;
-  padding-left:10px;
+  padding-left:20px;
   background-color:#fff;
   box-shadow: rgba(0,0,0,0.3) 2px 3px 2px;
 }
@@ -284,7 +284,7 @@ h3.title {
 }
 
 .list li {
-  list-style-type: none;
+  list-style-type: disc;
 }
 
 .list__item {
