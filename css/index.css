@@ -40,6 +40,15 @@ a.link:hover {
   transform: translateY(-2px);
 }
 
+a.link_student {
+  color: #000000;
+  text-decoration: none;
+}
+
+a.link_student:hover {
+  color: #6e6e6e;
+}
+
 p {
   font-size: 1.5rem;
   line-height: 1.6;
@@ -181,7 +190,7 @@ p {
 
 .content .container .news{
 	width:100%;
-	height:190px;
+	height:230px;
 	padding-top:20px;
 	padding-left:10px;
 	margin-bottom:40px;
@@ -332,7 +341,7 @@ h3.title {
 
 .content .container .student{
 	width:100%;
-	height:540px;
+	height:890px;
 	padding-left:10px;
 	background-color:#fff;
 	box-shadow: rgba(0,0,0,0.3) 2px 3px 2px;
@@ -345,12 +354,25 @@ h3.title {
 	margin-left:20px;	
 }
 
+.content .container .student .phd .line {
+  width: 100%;
+  height: 120px;
+  float: left;
+}
+
 .content .container .student .master{
 	width:100%;
-	height:120px;
+	height:240px;
 	float:left;
 	margin-left:20px;
 }
+
+.content .container .student .master .line {
+  width: 100%;
+  height: 120px;
+  float: left;
+}
+
 .content .container .student .undergraduates{
 	width:100%;
 	height:120px;
@@ -363,6 +385,12 @@ h3.title {
 	height:275px;
 	float:left;
 	margin-left:20px;
+}
+
+.content .container .student .alumni .line {
+  width: 100%;
+  height: 150px;
+  float: left;
 }
 
 h3.name{
@@ -401,41 +429,22 @@ h3.name{
 	padding-top:40px;
 }
 
-.student .individual_nopic_next{
-	width:150px;
-	height:100px;
-	float:left;
-	margin-top:40px;
-	margin-left:20px;
-	padding-top:20px;
-}
-.student .individual_zhiyi{
-	width:300px;
-	height:100px;
-	float:left;
-	margin-left:20px;
-	margin-top:40px;
+.student .individual_nopic_next {
+  width: 150px;
+  height: 100px;
+  float: left;
+  margin-left: 0px;
+  padding-top: 40px;
 }
 
-.student .individual_zhiyi .intro{
-	padding-top:8px;
+.student .individual_nopic_zhiyi {
+  width: 150px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
+  padding-top: 10px;
 }
 
-.student .individual_zhiyi img{
-	height: 75px;
-  	width: 75px;
-  	border-radius: 50%;
- 	 object-fit: cover;
-  	display: inline-block;
-  	margin-left:23px;
-  	margin-top:5px;
-}	
-
-.student .individual_zhiyi .img_name{
-	width:120px;
-	height:100px;
-	float:left;
-}
 .student .master .individual1 img {
   height: 75px;
   width: 75px;
