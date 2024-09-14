@@ -283,13 +283,13 @@ p {
 
 h2.section__title {
   font-size: 2rem;
-  //margin-bottom: 1rem;
+  /* //margin-bottom: 1rem; */
   color: #4a90e2;
 }
 
 h3.title {
   font-size: 1.5rem;
-  //margin-bottom: 2rem;
+  /* //margin-bottom: 2rem; */
 }
 
 .list li {
@@ -300,9 +300,9 @@ h3.title {
   list-style: disc;
   display: list-item;
   width: 100%;
-  //margin-bottom: 0.2rem;
+  /* //margin-bottom: 0.2rem; */
   position: relative;
-  //padding-top: 2rem;
+  /* //padding-top: 2rem; */
 }
 
 .list__item .flex-wrapper {
@@ -330,7 +330,7 @@ h3.title {
 
 .list__item p {
   font-size: 1.6rem;
-  //margin-bottom: 1.8rem;
+  /* //margin-bottom: 1.8rem; */
 }
 
 .date {
@@ -341,10 +341,25 @@ h3.title {
 
 .content .container .student{
 	width:100%;
-	height:1300px;
+	height:1400px;
 	padding-left:10px;
 	background-color:#fff;
 	box-shadow: rgba(0,0,0,0.3) 2px 3px 2px;
+}
+
+.content .container .student .postdoc{
+	width:100%;
+	height:140px;
+	float:left;
+	margin-left:20px;	
+	margin-top:10px;	
+}
+
+.content .container .student .postdoc .line {
+  width: 100%;
+  height: 120px;
+  float: left;
+	margin-top:10px;	
 }
 
 .content .container .student .phd{
@@ -358,6 +373,7 @@ h3.title {
   width: 100%;
   height: 120px;
   float: left;
+	margin-top:10px;	
 }
 
 .content .container .student .master{
@@ -371,6 +387,7 @@ h3.title {
   width: 100%;
   height: 120px;
   float: left;
+	margin-top:10px;	
 }
 
 .content .container .student .undergraduates{
@@ -378,6 +395,7 @@ h3.title {
 	height:120px;
 	float:left;
 	margin-left:20px;
+	margin-top:10px;	
 }
 
 .content .container .student .alumni{
@@ -389,12 +407,37 @@ h3.title {
 
 .content .container .student .alumni .line {
   width: 100%;
-  height: 200px;
+  height: 140px;
   float: left;
+	margin-top:10px;	
+}
+
+.content .container .student .alumni .midline {
+  width: 100%;
+  height: 140px;
+  float: left;
+	margin-top:50px;	
+}
+
+.content .container .student .alumni .highline {
+  width: 100%;
+  height: 140px;
+  float: left;
+	margin-top:70px;	
 }
 
 h3.name{
 	font-size: 1.6rem;
+}
+
+.student .postdoc img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  margin-top:5px;
+  margin-left:25px;
 }
 
 .student .phd img {
