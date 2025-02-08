@@ -59,12 +59,17 @@ p {
 
 .accent {
   color: #c582c3;
-  font-weight: 700;
+  font-weight: bolder;
 }
 
-.accent--n {
-  color: #51344d;
+.award {
+  color: #ee2828;
   font-weight: bolder;
+  font-style: italic;
+}
+
+.name {
+  color: #3c28ee;
 }
 
 .container {
@@ -296,6 +301,43 @@ h3.title {
   list-style-type: disc;
 }
 
+.list__item__0 {
+  list-style: disc;
+  display: list-item;
+  width: 100%;
+  /* //margin-bottom: 0.2rem; */
+  position: relative;
+  /* //padding-top: 2rem; */
+}
+
+.list__item__0 .flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.list__item__0 .flex-wrapper div:nth-child(1) {
+  flex: 1 1 85%;
+  padding-left: 1rem;
+}
+
+.list__item__0 .flex-wrapper div:nth-child(2) {
+  flex: 1 1 15%;
+  text-align: right;
+}
+
+.list__item__0 .meta {
+  font-size: 1.4rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.list__item__0 p {
+  font-size: 1.6rem;
+  /* //margin-bottom: 1.8rem; */
+}
+
 .list__item {
   list-style: disc;
   display: list-item;
@@ -313,17 +355,27 @@ h3.title {
 }
 
 .list__item .flex-wrapper div:nth-child(1) {
-  flex: 1 1 85%;
-  padding-left: 1rem;
+  flex: 1 1 11%;
+  text-align: left;
 }
 
 .list__item .flex-wrapper div:nth-child(2) {
-  flex: 1 1 15%;
+  flex: 1 1 84%;
+  padding-left: 1rem;
+}
+
+.list__item .flex-wrapper div:nth-child(3) {
+  flex: 1 1 5%;
   text-align: right;
 }
 
 .list__item .meta {
   font-size: 1.4rem;
+  display: block;
+}
+
+.list__item .pub {
+  font-size: 1.6rem;
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -331,6 +383,12 @@ h3.title {
 .list__item p {
   font-size: 1.6rem;
   /* //margin-bottom: 1.8rem; */
+}
+
+.ccf {
+  color: #4a90e2;
+  font-weight: 700;
+  line-height: 1.7;
 }
 
 .date {
@@ -566,16 +624,5 @@ h3.name{
     max-width: 100%;
     padding: 2rem 3rem;
     border-radius: 0;
-  }
-
-  .list__item .flex-wrapper div:nth-child(1) {
-    flex: 1 1 100%;
-    padding-left: 1rem;
-  }
-
-  .list__item .flex-wrapper div:nth-child(2) {
-    flex: 1 1 100%;
-    text-align: left;
-    padding-left: 1rem;
   }
 }
