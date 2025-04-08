@@ -355,7 +355,7 @@ h3.title {
 }
 
 .list__item .flex-wrapper div:nth-child(1) {
-  flex: 1 1 11%;
+  flex: 1 1 8%;
   text-align: left;
 }
 
@@ -365,7 +365,7 @@ h3.title {
 }
 
 .list__item .flex-wrapper div:nth-child(3) {
-  flex: 1 1 5%;
+  flex: 1 1 7%;
   text-align: right;
 }
 
