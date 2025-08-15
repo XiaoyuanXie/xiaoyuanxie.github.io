@@ -105,6 +105,13 @@ p {
 	line-height:50px;
 }
 
+.nav .item .lang{
+	height:50px;
+	margin-left:300px;
+	line-height:50px;
+	float:right;
+}
+
 
 .header {
   position: relative;
