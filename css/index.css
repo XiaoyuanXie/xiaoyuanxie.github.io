@@ -112,6 +112,39 @@ p {
 	float:right;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+	background-color:#fff;
+	z-index:100;
+}
+
+.flex-container .head{
+  width: 270px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+.flex-container .item{
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.flex-container .lang{
+  flex-grow: 1;
+  width: 250px;
+  margin: 10px;
+  text-align: right;
+  line-height: 30px;
+  font-size: 18px;
+  float: right;
+}
+
 
 .header {
   position: relative;
@@ -119,7 +152,6 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding-top:50px;
 }
 
 .header .none{
