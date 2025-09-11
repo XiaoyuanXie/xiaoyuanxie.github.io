@@ -139,6 +139,7 @@ p {
   flex-grow: 1;
   width: 250px;
   margin: 10px;
+  margin-right: 50px;
   text-align: right;
   line-height: 30px;
   font-size: 18px;
