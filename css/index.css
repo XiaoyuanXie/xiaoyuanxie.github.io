@@ -120,26 +120,35 @@ p {
 }
 
 .flex-container .head{
-  width: 270px;
+  width: 150px;
   margin: 10px;
   text-align: center;
   line-height: 30px;
   font-size: 25px;
 }
 
+.flex-container .separator{
+  margin-top: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+}
+
 .flex-container .item{
-  width: 80px;
   margin: 10px;
   text-align: center;
   line-height: 30px;
   font-size: 18px;
 }
 
-.flex-container .lang{
+.flex-container .blank{
   flex-grow: 1;
-  width: 250px;
+  line-height: 30px;
+}
+
+.flex-container .lang{
   margin: 10px;
-  margin-right: 50px;
+  margin-right: 20px;
   text-align: right;
   line-height: 30px;
   font-size: 18px;
